@@ -40,14 +40,14 @@ const Kennan = {
   ID: 2
 };
 
-console.log(kennan.name);
+console.log(kennan.id);
 
 // Keven's email
 const Keven = {
 email: "kmummery2@wikimedia.org"
 };
 
-console.log(keven.name);
+console.log(keven.email);
 
 // Gannie's name
 const Gannie = {
@@ -61,7 +61,7 @@ const Antonietta = {
   gender: "F"
 };
 
-console.log(antonietta.name);
+console.log(antonietta.gender);
 
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
