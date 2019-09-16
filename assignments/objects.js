@@ -68,7 +68,7 @@ console.log(antonietta.gender);
 // console.log(kennan.speak());
 let Kennan = {
   speak: function() {
-    console.log('Hello, my name is Kennan!');
+    return 'Hello, my name is Kennan!';
   }
 }  
 
@@ -78,7 +78,7 @@ console.log(Kennan.speak());
 //console.log(antonietta.multiplyNums(3,4));
 let Antonietta = {
   multiplyNums: function(x,y) {
-    const product = x * y;
+    return product = x * y;
   }
 }
 console.log(Antonietta.multiplyNums(3,4));
